@@ -76,7 +76,7 @@ with gr.Blocks(css=CSS, theme=THEME) as demo:
 
         chatbot = gr.Chatbot(
             elem_id='chatbot',
-            label=InterFace.async_engine.engine.model_name)
+            label='internlm2-math-7b')
         instruction_txtbox = gr.Textbox(
             placeholder='Please input the instruction',
             label='Instruction')
